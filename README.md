@@ -1,7 +1,7 @@
 # Simplified Morgan Algorithm for V2000 MOL Files
 
 This repository contains a Python implementation of the Morgan algorithm for canonical atom labeling of molecular graphs. 
-The implementation is designed to be minimal, self-contained, and focused onnthe core algorithmic logic without external dependencies.
+The implementation is designed to be minimal, self-contained, and focused on the core algorithmic logic without external dependencies.
 ---
 # Features
 - Canonical atom labeling using the Morgan algorithm
