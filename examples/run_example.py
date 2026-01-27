@@ -1,6 +1,12 @@
+import sys
+import os
+
+# Allow importing from the repository root
+sys.path.append(os.path.dirname(os.path.dirname(__file__)))
+
 from morgan_algorithm import morgan
 
-labels, canonical = morgan("ethanol.mol")
+labels, canonical = morgan("../ethanol.mol")
 
 print(" ")
 print("Molecule File: ethanol.mol")
