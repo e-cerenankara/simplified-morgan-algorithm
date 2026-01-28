@@ -18,3 +18,8 @@ This stopping criterion ensures that further iterations do not introduce additio
 When assigning canonical numbers to neighboring atoms, ordering is determined using a scheme:
 - Neighboring atoms with higher final Morgan labels are prioritized.
 - If two neighboring atoms have identical Morgan labels, bond order is used as a secondary sorting criterion with higher bond orders taking precedence.
+
+__References__
+Morgan, H. L. The Generation of a Unique Machine Description for
+Chemical Structures - A Technique Developed at Chemical Abstracts
+Service. J. Chem. Doc. 1965, 5, 107–112.
